@@ -1,0 +1,26 @@
+{
+  "name": "e-commerce-risk-analytics-system---group-project",
+  "version": "1.0.0",
+  "description": "E-Commerce Risk Monitoring Dashboard is a web-based security analytics system developed to monitor and visualize potential threats in an online commerce platform. The system tracks transaction activities, login attempts, and user behavior to identify suspicious patterns and classify risk levels such as low, medium, and high.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajBhokare/E-Commerce-Risk-Analytics-System---Group-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajBhokare/E-Commerce-Risk-Analytics-System---Group-Project/issues"
+  },
+  "homepage": "https://github.com/RajBhokare/E-Commerce-Risk-Analytics-System---Group-Project#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.18.0"
+  }
+}
