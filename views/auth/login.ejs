@@ -1,0 +1,33 @@
+<%- include('../partials/head') %>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card p-4 shadow">
+                    <h4 class="text-center mb-4">E-Commerce Risk Analytics</h4>
+
+                    <% if (typeof error !=='undefined' && error.length> 0) { %>
+                        <div class="alert alert-danger">
+                            <%= error[0] %>
+                        </div>
+                        <% } %>
+
+                            <form action="/auth/login" method="POST">
+                                <div class="mb-3">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="admin@ecommerce.com" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Password</label>
+                                    <input type="password" name="password" class="form-control" placeholder="••••••••"
+                                        required>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Login</button>
+                            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include('../partials/foot') %>
